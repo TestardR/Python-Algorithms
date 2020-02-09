@@ -7,8 +7,7 @@ def uni_char1(s):
     return len(set(s)) == len(s)
 
 
-pprint.pprint(uni_char1('abcdea'))
-
+pprint.pprint(uni_char1('abcd'))
 
 def uni_char(s):
 
@@ -24,4 +23,3 @@ def uni_char(s):
 
     return True
 
-pprint.pprint(uni_char('abcdea'))
