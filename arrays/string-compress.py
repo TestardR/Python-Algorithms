@@ -37,3 +37,4 @@ def compress(s):
     return r
 
 pprint.pprint(compress('AAAAAaaaBBBCCCCccccW'))
+

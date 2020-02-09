@@ -1,7 +1,6 @@
 # Given an array of integers (positive and negative) find the largest continuous sum.
 
 def large_cont_sum(arr):
-
     # Check to see if array is length 0
     if len(arr)==0:
         return 0
