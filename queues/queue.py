@@ -20,10 +20,11 @@ class Queue(object):
     def size(self):
         return len(self.items)
 
-""" q = Queue()
+q = Queue()
 print(q.isEmpty())
 q.enqueue(1)
 q.enqueue('A')
+q.dequeue()
 print(q.isEmpty())
 print(q.size())
-print(q.peek()) """
+print(q.peek())
